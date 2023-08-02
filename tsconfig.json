@@ -17,8 +17,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "jsxFactory": "",
-    "jsxFragmentFactory": ""
+    "jsxFragmentFactory": "",
+    "allowUmdGlobalAccess": true
   },
-  "include": ["src"],
+  "include": ["src", "examples"],
   "exclude": ["src/test"]
 }
